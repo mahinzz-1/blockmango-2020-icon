@@ -1,0 +1,12 @@
+{
+  "name": "blockmango-2020-icon",
+  "version": "1.0.0",
+  "description": "Skin icon CDN for Blockmango decorations",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
