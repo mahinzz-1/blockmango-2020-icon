@@ -1,0 +1,12 @@
+{
+  "name": "blockmango-private-server-icon",
+  "version": "1.1.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.22.3"
+  }
+}
