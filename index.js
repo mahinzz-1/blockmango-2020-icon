@@ -47,6 +47,11 @@ app.get('/icons/:file', (req, res) => {
   if (String(req.params.file).toLowerCase() === 'none.png') {
     return sendPngOr(res, path.join(ICONS_DIR, 'none.png'), 'Icon not found')
   }
+
+  if (String(req.params.file).toLowerCase() === 'gameloading.png') {
+    return sendPngOr(res, path.join(ICONS_DIR, 'gameloading.png'), 'Icon not found')
+  }
+
   const id = parseId(req.params.file)
   if (id === null) {
     return res.status(400).json({ code: 0, message: 'Invalid id', data: null })
